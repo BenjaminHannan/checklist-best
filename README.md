@@ -38,6 +38,9 @@ npm run dev
 
 Open `http://localhost:5173`.
 
+> Opening `index.html` directly from disk will show only a fallback message because Vite needs to
+> compile the app. Always use the dev server or `npm run build` + `npm run preview`.
+
 ## First-time setup in the app
 1. Click **Sign in with Google**.
 2. Click **Create/Copy Template** to create a spreadsheet with the required tabs.
